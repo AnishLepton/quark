@@ -11,6 +11,6 @@ async def on_ready():
   
 @client.command()
 async def hello(message):
-    await message.send('Hi! <@{message.author.id}>')
+    await message.send(f'Hi! <@{message.author.id}>')
     
 client.run('Nzk1NjcwNzIzMzQzMjg2MzQz.X_MwGw.lNxj4zQCGSbG7afmU3o4xcJUSug')
